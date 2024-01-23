@@ -114,7 +114,7 @@ export default function Home(){
             <div className="container-wrapper">
               <div className="container-2">
                 <div className="heading-overline-3">
-                  <img className="CDT-icon" alt="Cdt icon" src="/images/CDT-icon-1.svg" />
+                  <img className="CDT-icon" alt="CDT icon" src="/images/cdt-icon-1.svg" />
                   <div className="overline-3">DEFI RESERVE</div>
                   <div className="section-heading">CDT: Collateralized Debt Token.</div>
                   <p className="supporting-text">Optimized for DeFi and DEX users within the Interchain.</p>
