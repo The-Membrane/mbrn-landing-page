@@ -496,12 +496,30 @@ a {
   gap: 32px;
   position: relative;
   flex: 0 0 auto;
+  left: 65px;
 }
-
+.frame-6 img[data-descr] {
+  position: relative;
+}
+.frame-6 img[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: -7px;
+  top: 25px;
+  min-width: 33px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #50C9BD;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 21;
+}
 .option .media-social-icon {
   position: relative;
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 
 .option .opportunity {
@@ -510,7 +528,7 @@ a {
   height: 1058px;
   /* top: 0;
   left: 228px; */
-  background-image: url(../public/img/advantages.png);
+  background-image: url(../public/images/advantages.png);
   background-size: 100% 100%;
 }
 
@@ -950,7 +968,7 @@ a {
   object-fit: cover;
 }
 
-.option .img {
+.option .images {
   position: absolute;
   width: 1440px;
   height: 800px;
@@ -1238,7 +1256,7 @@ a {
   align-items: flex-start;
   gap: 24px;
   position: absolute;
-  top: 664px;
+  top: 640px;
   left: 192px;
 }
 
@@ -1625,6 +1643,22 @@ a {
   color: white;
   width: fit-content;
   cursor: pointer;
+  font-family: 'Inter', Helvetica;
+}
+.button-2 {
+  width: 88px;
+  height: 30px;
+  background-color: #0CD8FB;
+  border-radius: 1.25rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', Helvetica;
+  cursor: pointer;
+}
+.button-2:hover {
+  box-shadow: 0px 0px 24px #3fc5ff;
 }
 
 :root {

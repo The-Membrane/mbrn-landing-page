@@ -31,7 +31,7 @@ export default function Home(){
       <header className="header">
         <div className="content-wrapper">
           <div className="content-2">
-            <img className="logo-block" alt="Logo block" src="/img/logo-block.svg" />
+            <img className="logo-block" alt="Logo block" src="/images/logo-block.svg" />
             <div className="links-actions">
               <div className="links">
                 <a className="button-instance" onClick={reserveClick}> DeFi Reserve </a>
@@ -41,18 +41,16 @@ export default function Home(){
                 <a className="button-instance" onClick={oppoClick}> Opportunity </a>
                 <a className="button-instance" onClick={faqClick}> FAQs </a>
               </div>
-              <div className="actions">
-                <img className="button-2" alt="Button" src="/img/button.svg" />
-              </div>
+              <div className="button-2"onClick={()=>window.open("https://membrane-ui-mainnet.vercel.app/")}>App</div>
             </div>
           </div>
         </div>
       </header>
       <div className="overlap-7">
-      <div className="overlap-9" style={{top: "-399px", left: "167px"}}>
+      <div className="overlap-9" style={{top: "-380px", left: "167px"}}>
             <div className="hero">
               <div className="overlap-group-4">
-                <img className="istock-2" alt="Istock" src="/img/istock-1463401580-2-2.png" />
+                <img className="istock-2" alt="Istock" src="/images/istock-1463401580-2-2.png" />
                 <div className="rectangle-7" />
               </div>
             </div>
@@ -84,13 +82,13 @@ export default function Home(){
               <div className="overlap-9">
                   <div className="overlap-group-5">
                     <div className="ellipse-12" />
-                    <img className="ellipse-13" alt="Ellipse" src="/img/ellipse-18.svg" />
-                    <img className="ellipse-14" alt="Ellipse" src="/img/ellipse-19.svg" />
+                    <img className="ellipse-13" alt="Ellipse" src="/images/ellipse-18.svg" />
+                    <img className="ellipse-14" alt="Ellipse" src="/images/ellipse-19.svg" />
                   </div>
                 <div className="main-sphere">
                   <div className="overlap-10">
                     <div className="ellipse-15" />
-                    <img className="frame-11" alt="Frame" src="/img/Main Sphere (1).png" />
+                    <img className="frame-11" alt="Frame" src="/images/Main Sphere (1).png" />
                   </div>
                 </div>
                 <div className="ellipse-16" />
@@ -116,7 +114,7 @@ export default function Home(){
             <div className="container-wrapper">
               <div className="container-2">
                 <div className="heading-overline-3">
-                  <img className="CDT-icon" alt="Cdt icon" src="/img/CDT-icon-1.svg" />
+                  <img className="CDT-icon" alt="Cdt icon" src="/images/CDT-icon-1.svg" />
                   <div className="overline-3">DEFI RESERVE</div>
                   <div className="section-heading">CDT: Collateralized Debt Token.</div>
                   <p className="supporting-text">Optimized for DeFi and DEX users within the Interchain.</p>
@@ -188,8 +186,8 @@ export default function Home(){
         </div>        
         <div className="the-vision">
           <div className="overlap-6">
-            <img className="montytree" alt="Montytree" src="/img/enhanced-monty-tree.jpg" />
-            <img className="img" alt="The vision" src="/img/the-vision.png" />
+            <img className="montytree" alt="Montytree" src="/images/enhanced-monty-tree.jpg" />
+            <img className="img" alt="The vision" src="/images/the-vision.png" />
           </div>
         </div>
         <div className="features">
@@ -266,7 +264,7 @@ export default function Home(){
                   </div>
                   <div className="overlap-group-3">
                     <div className="heading-4">Potential for Growth</div>
-                    <img className="lines" alt="Lines" src="/img/lines.png" />
+                    <img className="lines" alt="Lines" src="/images/lines.png" />
                     <div className="bars">
                       <div className="rectangle-3" />
                       <div className="rectangle-4" />
@@ -276,17 +274,17 @@ export default function Home(){
                   </div>
                 </div>
               </div>
-              <img className="advantages" alt="Advantages" src="/img/advantages-1.png" />
+              <img className="advantages" alt="Advantages" src="/images/advantages-1.png" />
             </div>
           </div>
         </div>
         <div className="opportunity">
-          <img className="" alt="Opportunity" src="/img/advantages.png" />
+          <img className="" alt="Opportunity" src="/images/advantages.png" />
         </div>
         <div className="overlap">
           <div className="FA-qs">
             <div className="overlap-group">
-              <img className="istock" alt="Istock" src="/img/istock-1463401580-2.png" />
+              <img className="istock" alt="Istock" src="/images/istock-1463401580-2.png" />
               <div className="rectangle" />
               <div className="defi-users-wrapper">
                 <div className="defi-users">
@@ -304,7 +302,7 @@ export default function Home(){
                         </div>
                         <div className="nav-line">
                           <div className="overlap-group-2">
-                            <img className="line" alt="Line" src="/img/line-124.svg" />
+                            <img className="line" alt="Line" src="/images/line-124.svg" />
                             <div className="rectangle-2" style={FAQ === "MBRN" ? {left: "137px", width: "154px"} : FAQ === "Builders" ? {left: "322px", width: "129px"} : {left: "0", width: "106px"}}/>
                           </div>
                         </div>
@@ -315,16 +313,16 @@ export default function Home(){
                     <div className="point">
                       <div className="frame-2">
                         <p className="p">
-                          Currently the frontend supports the collateral types $OSMO, $ATOM, and $USDC—can a user add
-                          additional collateral types  How?
+                          Currently the frontend supports multiple collateral types, can a user add
+                          additional collateral types How?
                         </p>
                       </div>
                       <p className="text-wrapper-2">
                         Only $MBRN governance can add new collateral types.
                         <br />
                         <br />
-                        In the future we anticipate Membrane will become an important sink for $BTC, $ETH, and $TIA
-                        collateral once they are whitelisted by community gov.
+                        In the future we anticipate Membrane will become an important sink for major 
+                        collateral assets, like $BTC & $ETH, as they are whitelisted by community gov.
                       </p>
                     </div>
                     <div className="point">
@@ -351,8 +349,7 @@ export default function Home(){
                       </div>
                       <p className="text-wrapper-2">
                         Caps are used to calculate interest rates, if the cap is broken the rates will increase
-                        multiplicatively. Withdrawals aren't blocked by supply cap increases &amp; deposits won't in a
-                        future protocol upgrade.
+                        multiplicatively. Withdrawals aren't blocked by supply cap increases but deposits that cause overages will be.
                       </p>
                     </div>
                     <div className="point">
@@ -364,7 +361,7 @@ export default function Home(){
                       </div>
                       <p className="text-wrapper-2">
                         Collateral within bundles is liquidated at its proportion of the bundle, eg, 10% USDC 90% $OSMO
-                        bundle will use 90% $OSMO &amp; 10% $USDC liquidations to recapitalize.
+                        bundle will use 10% $USDC &amp; 90% $OSMO in liquidations to recapitalize.
                         <br />
                         <br />
                         If the value of just one collateral type cascades, the unaffected collateral type plays an
@@ -381,7 +378,7 @@ export default function Home(){
                     </div>
                     <div className="point">
                       <div className="frame-2">
-                        <p className="p">Do I need to activate my bids?</p>
+                        <p className="p">Do I need to activate my liquidation bids?</p>
                       </div>
                       <div className="text-wrapper-2">No</div>
                     </div>
@@ -392,7 +389,7 @@ export default function Home(){
                         </p>
                       </div>
                       <p className="text-wrapper-2">
-                        The single asset pools get first dibs on all assets, the omni-asset pool gets the leftovers.
+                        The single asset pools is the first filter, getting first dibs on all assets, while the omni-asset pool gets the remaining based on premium & available TVL of the inital filter.
                       </p>
                     </div>
                     <div className="point">
@@ -419,7 +416,7 @@ export default function Home(){
                         </p>
                       </div>
                       <p className="text-wrapper-2">
-                      We were a part of Terra's community and believe crypto doesn't exist as alternate rails without uncensorable money and good UX. Crypto will onboard the world with or without decentralized stables but without makes it solely an extension of nation-state systems. Decentralized money is the foundation the space was built upon and there is a dormant fervor waiting to explore this new portal.
+                      We were a part of Terra's community and believe crypto doesn't exist as alternate rails without uncensorable money and good UX. Crypto will onboard the world with or without decentralized stables but without makes it solely an extension of nation-state systems. Decentralized money is the foundation the space was built upon and there is a dormant fervor waiting to explore this new avenue.
                       </p>
                     </div>
                     <div className="point">
@@ -435,8 +432,8 @@ export default function Home(){
                         <p className="p">Does the Membrane Protocol accrue revenues? What is it used for?</p>
                       </div>
                       <p className="text-wrapper-2">
-                        Yes, both via loan interest rates on $CDT borrowings during growth cycles and also collateral liquidation fees during down cycles.
-                        Protocol revenues can be utilized according to community gov voting (e.g. returned to stakers, used to grow POL, used to fund growth).
+                        Yes, via loan interest rates on $CDT borrows and collateral liquidation fees.
+                        Protocol revenues can be utilized according to community governance voting (e.g. returned to stakers, used to grow POL, used to fund growth).
                       </p>
                     </div>
                     <div className="point">
@@ -459,7 +456,7 @@ export default function Home(){
                         <br />
                         Osmosis LP collateralization - there are LPers who won't want to bond for incentives or expose themselves to CL vaults, making $CDT a great option boosted yield option.
                         <br />
-                        Experimental DeFi users who want to discover the best collatearl bundle to leverage with.
+                        Experimental DeFi users who want to discover the best collateral bundle to collateralize with.
                       </p>
                     </div>
                     <div className="point">
@@ -483,9 +480,9 @@ export default function Home(){
                         </p>
                       </div>
                       <p className="text-wrapper-2">
-                      It allows liquidations to be spread across collateral types instead of each liquidation only converting a single asset type. This means the market of each collateral asset will be pressured less from $CDT liquidations in a down cycle.
+                      It allows liquidations to be spread across collateral types instead of each liquidation only converting a single asset type. This means the market of each collateral asset will be pressured less from $CDT liquidations in a bearish environment.
                       <br />
-                      It allows users to collateralize their whole portfolio & therefore getting the benefits of assumingly diversified volatility profiles. As well as allowing users to recapitalize their position with any available collateral types rather than just the initial deposit.
+                      It also enables users to collateralize their whole portfolio & therefore get the benefits of assumingly diversified volatility profiles. Lastly, it enables users to recapitalize their position with any available collateral types rather than just the initial deposit.
                       </p>
                     </div>
                     <div className="point">
@@ -495,21 +492,21 @@ export default function Home(){
                       <p className="text-wrapper-2">
                       The primary difference is the lack of a PSM, which allows for 1:1 swaps with fiat-backed tokens. This is great to keep the peg fixed (a hard peg) by having an instantaneous arb cycle. The problem with this is that it pegs the stable to the PSM's accepted assets instead of to the desired USD denomination. When USDC depegs, so does DAI & IST.
                       <br />
-                      The liquidation pools are another major differentiation by making liquidated collateral available to the entire market instead of just the user who calls the liquidation. This allows a wider distribution of assets, in turn decreasing the effect of $CDT liquidations on the market. This and liquidation diversity from bundles make $CDT a partner of market stability during a down cycle.
+                      The liquidation pools are another major differentiation by making liquidated collateral available to the entire market instead of just the user who calls the liquidation. This allows a wider distribution of assets, in turn decreasing the effect of $CDT liquidations on the market. This and liquidation diversity from bundles make $CDT a friend to market stability during a bearish cycle.
                       </p>
                     </div>
                     <div className="point-2">
                       <div className="frame-2">
                         <p className="p">How is the project differentiated from $USK?</p>
                       </div>
-                      <div className="text-wrapper-2">Aside from bundles, a major difference is the usage of fiat-backed collateral. This allows $CDT to scale faster and keep a tighter peg. Membrane's focus on stablecoins also allows it to build a community with specialized knowledge, ripe for stewarding the protocol's future.</div>
+                      <div className="text-wrapper-2">Aside from bundles, a major difference is the usage of fiat-backed collateral. This allows $CDT to scale faster and keep a tighter peg. Membrane's singular focus on stablecoins also allows it to build a community with specialized knowledge, ripe for stewarding the protocol's future.</div>
                     </div>
                     <div className="point">
                       <div className="frame-2">
                         <p className="p">We understand this is a new regulatory area, but, can you anticipate how regulators might react to a decentralized stable coin project with a product architecture such as $CDT?</p>
                       </div>
                       <p className="text-wrapper-2">
-                      There is potential that a floating peg requires less/softer pressure because it is liquidating all assets and it isn't merely a $USDC wrapper. If $DAI risks are at best the same as $USDC, many regulators may ask why DDAI risk is necessary, compared to $CDT, which is actively derisking its fiat-backed collateral types.
+                      There is potential that a floating peg requires less/softer pressure because it is liquidating all assets and it isn't merely a $USDC wrapper. If $DAI risks are at best the same as $USDC, many regulators may ask why DAI risk is necessary, compared to $CDT, which is actively derisking its fiat-backed collateral types.
                       </p>
                     </div>
                   </div></> 
@@ -565,11 +562,9 @@ export default function Home(){
                       </div>
                       <p className="text-wrapper-2">
                         Yes, but will need more tech to do so without multi-sigs outside of Osmosis.
-                        While we think this is a worthwhile gesture in time, Osmosis DEX has enough users, and that is the immediate focus before spending money elsewhere.
+                        While we think this is a worthwhile gesture in time, Osmosis DEX has enough users to build a foundation on and that is the immediate focus before spreading elsewhere.
                         <br />
                         If DeFi builders want to present a proposal to $MBRN community that integrates $CDT into their dApp, whether or not $MBRN incentives will be awarded really depends on long-term alignment and the plan to prevent dumps into the market.
-                        If the value of just one collateral type cascades, the unaffected collateral type plays an
-                        increasing role in each subsequent liquidation.
                       </p>
                     </div>
                     <div className="point">
@@ -585,10 +580,10 @@ export default function Home(){
                         <p className="p">How does $CDT's regenerative approach to recovering peg work & how is this differentiated from other decentralized stable coin designs?</p>
                       </div>
                       <div className="text-wrapper-2">
-                        For a user, leverage is a high-risk, high-reward endeavor that leaks its risk to the wider market. In a bullish environment, the more levered the overall market, the harder it'll crash on an inevitable downturn. As a cog in the leverage machine, it's Membrane's responsibility to reduce the overall effect its deleveraging has on the ecosystem overall. Deleveraging is destruction that must be reintegrated into the environment to act as nutrients in the next phase of the cycle.
+                        For a user, leverage is a high-risk, high-reward endeavor that leaks risk to the wider market. In a bullish environment, the more levered the overall market, the harder it'll crash on an inevitable downturn. As a cog in the leverage machine, it's Membrane's responsibility to reduce the overall effect its deleveraging has on the ecosystem overall. Deleveraging is destruction that must be reintegrated into the environment to act as nutrients in the next phase of the cycle.
                         <br />
                         <br />
-                        The usual method is having a single liquidator's preference determine the outcome for the liquidated collateral, normally selling via DEX. This not only centralizes the discount from said collateral but also lubricates the mountains for a liquidation cascade, which can snowball and liquidate everything in its path.
+                        The usual method is having a single liquidator's preference determine the outcome for the liquidated collateral, typically selling via DEX. This not only centralizes the discount from said collateral but also lubricates the mountains for a liquidation cascade, which can snowball and liquidate everything in its path.
                         <br />
                         <br />
                         Membrane's liquidation dispersion method is 2-fold. Initially because positions can hold multiple collateral types, each liquidation is more likely to liquidate multiple assets instead of having to recapitalize 100% of the debt from a single market. Next, these assets go through liquidation pools so that each is distributed to every bidder in a pool, which if empty will go to a secondary pool that is FIFO to encourage competitive refills. Distributing to more people means there will be more collateral that doesn't get sold right away (instead it is staked, LP'd, held) which will (1) Give the market temporary strength, and (2) Allow long term holders to obtain assets at discounted prices.
@@ -608,7 +603,7 @@ export default function Home(){
               <div className="footer-2">
                 <div className="block">
                   <div className="frame-3">
-                    <img className="logo-block" alt="Logo block" src="/img/logo-block-1.svg" />
+                    <img className="logo-block" alt="Logo block" src="/images/logo-block-1.svg" />
                     <p className="text-wrapper-3">© 2024 Membrane. All rights reserved.</p>
                   </div>
                 </div>
@@ -622,9 +617,11 @@ export default function Home(){
                     <a className="button-instance" onClick={faqClick}> FAQs </a>
                   </div>
                   <div className="frame-6">
-                    {/* <SocialIcon className="media-social-icon" />
-                    <CompanyXStyleWhiteBackgroundCircular className="media-social-icon" />
-                    <IconComponentNode className="media-social-icon" /> */}
+                    <img className="media-social-icon" alt="Discord-Icon" src="/images/discord-icon.svg" title="Discord" onClick={()=>window.open("https://discord.gg/ksT6cdHpbV")}/>
+                    <img className="media-social-icon" alt="Twitter-Icon" src="/images/x-icon.svg" title="Twitter" onClick={()=>window.open("https://twitter.com/insaneinthembrn")}/>
+                    <img className="media-social-icon" alt="Github-Icon" src="/images/github-icon.svg" title="Github" onClick={()=>window.open("https://github.com/MembraneFinance")}/>
+                    <img className="media-social-icon" alt="Gitbook-Icon" src="/images/gitbook-icon.svg" title="Gitbook" onClick={()=>window.open("https://membrane-finance.gitbook.io/membrane-docs-1/")}/>
+                    <img className="media-social-icon" alt="Litepaper-Icon" src="/images/litepaper-icon.svg" title="Litepaper" onClick={()=>window.open("https://commonwealth.im/membrane/discussion/14701-membrane-the-next-step-in-evolution?tab=0")}/>
                   </div>
                 </div>
               </div>
