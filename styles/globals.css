@@ -957,6 +957,15 @@ a {
 .option .overlap-6 {
   position: relative;
   height: 874px;
+  display: flex;
+}
+.vision-image {
+  position: relative;
+  left: -737px;
+  z-index: 999;
+  width: 1336px;
+  height: 874px;
+  object-fit: cover;
 }
 
 .option .montytree {
