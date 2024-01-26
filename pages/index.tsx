@@ -314,11 +314,11 @@ export default function Home(){
                       <div className="frame-2">
                         <p className="p">
                           Currently the frontend supports multiple collateral types, can a user add
-                          additional collateral types How?
+                          additional collateral types themselves?
                         </p>
                       </div>
                       <p className="text-wrapper-2">
-                        Only $MBRN governance can add new collateral types.
+                        No, only $MBRN governance can add new collateral types.
                         <br />
                         <br />
                         In the future we anticipate Membrane will become an important sink for major 
