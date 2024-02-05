@@ -4,7 +4,7 @@ import type { AppProps } from 'next/app';
 import '@interchain-ui/react/styles';
 import React from 'react';
 import { ChakraProvider } from "@chakra-ui/react";
-import customTheme from "./theme";
+import customTheme from "../public/theme";
 
 function CreateCosmosApp({ Component, pageProps }: AppProps) {
 
