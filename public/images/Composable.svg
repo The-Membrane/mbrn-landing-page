@@ -1,0 +1,9 @@
+<svg width="460" height="458" viewBox="0 0 460 458" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="customGradient" x1="60.8467" y1="45.9693" x2="460.8361" y2="460.6871" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00A3F9"/>
+      <stop offset="1" stop-color="#00F1EF"/>
+    </linearGradient>
+  </defs>
+<path d="M229.5 14L14 148.5M229 282.5L14 149M229 362.5L14 229M229 444.5L14.5 309.5M95.5206 275.284L95.5203 202.5M149.521 307.284L149.52 234.5M203.392 340.784L203.391 268M256.392 340.784L256.391 268M310.392 309.784L310.391 237M363.392 272.784L363.391 200M446.244 229.202L384.143 191.239M17.0537 227.482L79.2346 189.652M15.4997 309.499L79.2341 269.651M445.244 309.202L383.143 271.239M229.5 282.5L446 149M229.5 362.5L446 229M229.5 444.5L445.5 309.5M230 14L445.5 148.5" stroke="url(#customGradient)" stroke-width="24" stroke-linecap="round"/>
+</svg>
