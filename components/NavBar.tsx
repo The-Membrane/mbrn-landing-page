@@ -75,7 +75,7 @@ export default function NavBar() {
             <a href="#faqs">FAQs</a>
           </Text>
           <ChakraLink
-            href="https://membrane-ui-mainnet.vercel.app/"
+            href="https://cdt.money"
             target="_blank"
           >
             <Button borderRadius="full" bg="#798eff">
@@ -125,7 +125,7 @@ export default function NavBar() {
                 FAQs
               </ChakraLink>
               <ChakraLink
-                href="https://membrane-ui-mainnet.vercel.app/"
+                href="https://cdt.money"
                 target="_blank"
               >
                 <Button borderRadius="full" bg="#798eff">
